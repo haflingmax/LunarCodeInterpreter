@@ -1,0 +1,19 @@
+{
+  "strictReviewMarker": true,
+  "blockedPathRegexes": [
+    "(^|/)\\.env$",
+    "(^|/)\\.env\\.(?!example$|sample$)[^/]+$",
+    "\\.(pem|key|p12|pfx|sqlite|sqlite3|db|dump|log)$",
+    "(^|/)(logs|data-node|meili_data|uploads|models)(/|$)"
+  ],
+  "blockedContentRegexes": [
+    "-----BEGIN [A-Z ]*PRIVATE KEY-----",
+    "\\bghp_[A-Za-z0-9_]{20,}\\b",
+    "\\bglpat-[A-Za-z0-9_-]{20,}\\b",
+    "\\bhf_[A-Za-z0-9]{20,}\\b",
+    "\\bsk-[A-Za-z0-9_-]{20,}\\b",
+    "\\bBearer\\s+[A-Za-z0-9._-]{30,}\\b",
+    "\\bproduction deployment\\b",
+    "\\binternal worker services\\b"
+  ]
+}

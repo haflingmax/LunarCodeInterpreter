@@ -1,5 +1,12 @@
 # Code Interpreter
 
+> LunarCodeInterpreter is a fork of ClickHouse Code Interpreter. It is not an
+> official ClickHouse, LibreChat, or OpenAI product unless explicitly stated by
+> those projects. See `PUBLICATION_READINESS.md` for public repository rules.
+>
+> ClickHouse is a registered trademark of ClickHouse, Inc. See
+> `https://clickhouse.com/legal/trademark-policy`.
+
 Sandboxed code execution service for LibreChat, providing secure execution of user-submitted code with file storage and tool calling capabilities.
 
 ## Overview
